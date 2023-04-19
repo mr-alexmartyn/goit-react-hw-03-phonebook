@@ -20,8 +20,8 @@ export const Contact = p => {
 };
 
 Contact.propTypes = {
-  id: PropTypes.any.isRequired,
-  name: PropTypes.string.isRequired,
-  number: PropTypes.number.isRequired,
+  id: PropTypes.any,
+  name: PropTypes.string,
+  number: PropTypes.number,
   deleteContact: PropTypes.func,
 };
